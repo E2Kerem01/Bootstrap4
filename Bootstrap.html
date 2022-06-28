@@ -17,19 +17,81 @@
         .btn {
             border-radius: 10px;
         }
+        .box {
+            height: 200px;
+        }
+        div span {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            background: red;
+        }
     </style>
 </head>
 <body>
     
-    
+    <!-- <div class="container-md bg-danger" >
+        <h1>Container</h1>
+    </div> -->
 
-    <button type="button" class="btn btn-primary">Primary</button>
+    <!-- <div class="container">
+        <div class="row">
+
+            <div class="box bg-danger col-2"></div>  
+            <div class="box bg-primary col-2"></div>  
+            <div class="box bg-success col-2"></div>  
+
+        </div>
+    </div> -->
+
+
+    <!-- <div class="container">
+        <div class="row">
+            <div class="box bg-danger"></div>
+            <div class="box bg-primary"></div>
+            <div class="box bg-success"></div>
+        </div>
+    </div> -->
+
+
+    <!-- <div class="container">
+        <div class="row">
+            <div class="box bg-danger col-6 col-md-4"></div>
+            <div class="box bg-primary col-md-8"></div>
+            <div class="box bg-success"></div>
+        </div>
+    </div> -->
+
+
+    <!-- Alignment -->
+
+    <!-- <div class="row bg-dark align-items-center justify-content-center" 
+         style="height: 600px; ">
+        <div class="box bg-danger col-2"></div>  
+        <div class="box align-self-end bg-primary col-2"></div>  
+        <div class="box bg-success col-2"></div>  
+    </div> -->
+
+
+    <!-- Flexbox -->
+
+    <!-- <div class="d-flex justify-content-center align-items-center bg-dark" style="height: 600px; width: 600px">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>  -->
+
+    <div class="d-flex flex-row bg-dark" style="height: 600px; width: 600px">
+        <span class="justify-content-end"></span>
+        <span class="justify-content-center"></span>
+        <span class="justify-content-around"></span>
+    </div>
 
 
 
 
 
-
+    <!-- <button type="button" class="btn btn-primary">Primary</button> -->
     <script 
         src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" 
         integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" 
